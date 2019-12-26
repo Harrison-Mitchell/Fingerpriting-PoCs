@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="x-ua-compatible" content="ie=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+		<meta name="theme-color" content="#444" />
+		<link rel="canonical" href="https://harrisonm.com"/>
+		<title>Date Harrison</title>
+		<script type="text/javascript">var initTime = new Date().getTime();</script>
+		<style>body, html {font-family: sans-serif}table {width: 100%}th {height: 50px;background-color: #000;color: white;text-align: center}td {vertical-align: top;border-left: 3px solid white;text-align: left;padding: 5px}tr:nth-child(even) {background-color: #f5f5f5}tr:hover {background-color: #e5e5e5}</style>
+	</head>
+	<body onscroll="scrolled();">
+		<h1 id="topH1">Fingerprinting PoCs - Takes ~6 seconds to load</h1>
+		<p>No information is stored, it's all client side. Addmitadly, only tested on Linux Firefox and Chrome. * = depreciated</p>
+		<noscript>This page is like 99% JS, you'll need to enable it or move on</noscript>
+		<table id="main-table">
+			<tr>
+				<th>Necessary code</th>
+				<th>Your result</th>
+				<th>Example result</th>
+				<th>Notes</th>
+			</tr>
+		</table>
+		<p>See also:</p>
+		<ul>
+			<li><a href="https://browserleaks.com/ssl">Full connection protocol and cipher discovery</a></li>
+			<li><a href="https://browserleaks.com/features">Currently supported browser features</a></li>
+			<li><a href="https://browserleaks.com/social">Discover logged on accounts</a></li>
+			<li><a href="https://amiunique.org/fp">The % similarity your values are to others</a></li>
+		</ul>
+		<script>function getIP(json) {IPinfo = json;} adblock=false;</script>
+		<script src="http://ip-api.com/json?callback=getIP" onerror="getIP('');"></script>
+		<script type="text/javascript" async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" onerror="adblock = true;"></script>
+		<script type="text/javascript" src="fingerprint-PoCs/database.js"></script>
+		<script type="text/javascript" src="fingerprint-PoCs/fontDetector.js"></script>
+		<script type="text/javascript" src="fingerprint-PoCs/canvasFinger.js"></script>
+		<script type="text/javascript" src="fingerprint-PoCs/main.js"></script>
+	</body>
+</html>
