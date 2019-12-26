@@ -501,7 +501,7 @@ addRow("","<br><br><br>","","");
 // Canvas
 //
 
-addRow("Canvas fingerprinting","&nbsp;","","There are many complicated paint calls for this canvas. Each browser / OS / etc is going to render it marginally differently, which is perfect for a hash function because hash functions are designed to have wildly different results for a similar input. For more info about hash functions, <a href='https://harrisonm.com/blog/encryption'>read this</a>. For this canvas fingerprinting implementation, look at <a href='git'>the code</a>");
+addRow("Canvas fingerprinting","&nbsp;","","There are many complicated paint calls for this canvas. Each browser / OS / etc is going to render it marginally differently, which is perfect for a hash function because hash functions are designed to have wildly different results for a similar input. For more info about hash functions, <a href='https://harrisonm.com/blog/encryption'>read this</a>. For this canvas fingerprinting implementation, look at <a href='https://harrisonm.com/fingerprint-PoCs/canvasFinger.js'>the code</a>");
 	wide("ja","cvs");
 addRow("","<br><br><br>","","");
 
